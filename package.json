@@ -1,0 +1,26 @@
+{
+  "name": "frisco",
+  "version": "1.0.0",
+  "description": "mi página personal",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.808.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.15",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "ramirezf",
+  "license": "ISC"
+}
